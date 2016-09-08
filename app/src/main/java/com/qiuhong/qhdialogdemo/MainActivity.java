@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void textViewClicker(View v) {
 
-        QHDialog qhDialog = new QHDialog(this,"Title", "Message");
+        QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
 //        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
 //            @Override
 //            public void onClick(DialogInterface dialog, int which) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 //        qhDialog.setNegativeButton("cancel", null);
-        qhDialog.setOnlyOneButtonText("好的");
+        qhDialog.setOnlyOneButtonText("Yes, it is!");
         qhDialog.show();
 
 

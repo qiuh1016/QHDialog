@@ -3,6 +3,10 @@ qhdialog
 
 [![](https://jitpack.io/v/qiuh1016/qhdialog.svg)](https://jitpack.io/#qiuh1016/qhdialog)
 
+<!-- ![](pic.png =100*80) -->
+
+<img src="pic.png" width="540" height="380">
+
 Install
 ------------
 
