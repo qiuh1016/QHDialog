@@ -1,8 +1,12 @@
-# qhdialog
+qhdialog
+============
 
+[![](https://jitpack.io/v/qiuh1016/qhdialog.svg)](https://jitpack.io/#qiuh1016/qhdialog)
 
+[TOC]
 
-To get a Git project into your build:
+Install
+------------
 
 Step 1. Add the JitPack repository to your build file
 
@@ -23,7 +27,8 @@ Step 2. Add the dependency
 
 
 
-Demo:
+Demo
+--------------
 
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
         qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
@@ -36,3 +41,8 @@ Demo:
         qhDialog.setNegativeButton("cancel", null);
         qhDialog.show();
 
+Contact me
+-------------
+E-mail: qiuh1016@126.com
+QQ: 276655503
+WeChat: qiuh1016
