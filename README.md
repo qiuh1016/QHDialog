@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:v1.0'
+	        compile 'com.github.qiuh1016:qhdialog:1.0.0'
 	}
 
 
