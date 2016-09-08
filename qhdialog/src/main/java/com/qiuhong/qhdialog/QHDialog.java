@@ -2,6 +2,7 @@ package com.qiuhong.qhdialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.view.View;
 
 /**
  * Created by qiuhong on 9/8/16.
@@ -11,17 +12,14 @@ public class QHDialog {
     private QHDialogClass qhDialog;
     private QHDialogClass.Builder builder;
     private boolean cancelable = true;
-    private Context context;
     private String title = "";
     private String message = "";
 
     public QHDialog(Context context) {
-        this.context = context;
         builder = new QHDialogClass.Builder(context);
     }
 
     public QHDialog(Context context, String title, String message) {
-        this.context = context;
         this.title = title;
         this.message = message;
         builder = new QHDialogClass.Builder(context);
@@ -33,7 +31,10 @@ public class QHDialog {
         builder.setCancelable(cancelable);
         qhDialog = builder.create();
         qhDialog.show();
+    }
 
+    public void setOnlyOneButtonText(String text) {
+        builder.setOnlyOneButtonText(text);
     }
 
     public void setTitle(String title) {
@@ -56,6 +57,8 @@ public class QHDialog {
         builder.setCancelable(cancelable);
     }
 
-
+    public void setContextView(View v) {
+        builder.setContentView(v);
+    }
 
 }

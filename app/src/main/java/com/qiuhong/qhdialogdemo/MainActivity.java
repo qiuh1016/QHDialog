@@ -19,14 +19,15 @@ public class MainActivity extends AppCompatActivity {
     public void textViewClicker(View v) {
 
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
-        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
-                dialog.dismiss();
-            }
-        });
-        qhDialog.setNegativeButton("cancel", null);
+//        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
+//                dialog.dismiss();
+//            }
+//        });
+//        qhDialog.setNegativeButton("cancel", null);
+        qhDialog.setOnlyOneButtonText("好的");
         qhDialog.show();
 
 

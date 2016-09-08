@@ -3,6 +3,7 @@ package com.qiuhong.qhdialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,6 +33,7 @@ public class QHDialogClass extends Dialog {
         private String message;
         private String positiveButtonText;
         private String negativeButtonText;
+        private String onlyOneButtonText;
         private boolean mCancelable = true;
 
         private View contentView;
@@ -75,7 +77,6 @@ public class QHDialogClass extends Dialog {
          * @param title
          * @return
          */
-
         public Builder setTitle(String title) {
             this.title = title;
             return this;
@@ -91,14 +92,18 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
+        public Builder setOnlyOneButtonText(String onlyOneButtonText) {
+            this.onlyOneButtonText = onlyOneButtonText;
+            return this;
+        }
+
         /**
          * Set the positive button resource and it's listener
          *
          * @param positiveButtonText
          * @return
          */
-        public Builder setPositiveButton(int positiveButtonText,
-                                         OnClickListener listener) {
+        public Builder setPositiveButton(int positiveButtonText, OnClickListener listener) {
             this.positiveButtonText = (String) context
                     .getText(positiveButtonText);
             if (listener == null) {
@@ -113,8 +118,7 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
-        public Builder setPositiveButton(String positiveButtonText,
-                                         OnClickListener listener) {
+        public Builder setPositiveButton(String positiveButtonText, OnClickListener listener) {
             this.positiveButtonText = positiveButtonText;
             this.positiveButtonClickListener = listener;
             if (listener == null) {
@@ -129,8 +133,7 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
-        public Builder setNegativeButton(int negativeButtonText,
-                                         OnClickListener listener) {
+        public Builder setNegativeButton(int negativeButtonText, OnClickListener listener) {
             this.negativeButtonText = (String) context
                     .getText(negativeButtonText);
             if (listener == null) {
@@ -147,8 +150,7 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
-        public Builder setNegativeButton(String negativeButtonText,
-                                         OnClickListener listener) {
+        public Builder setNegativeButton(String negativeButtonText, OnClickListener listener) {
             this.negativeButtonText = negativeButtonText;
             if (listener == null) {
                 this.negativeButtonClickListener = new OnClickListener() {
@@ -163,16 +165,20 @@ public class QHDialogClass extends Dialog {
         }
 
         public QHDialogClass create() {
-            LayoutInflater inflater = (LayoutInflater) context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            // instantiate the dialog with the custom Theme
-            final QHDialogClass dialog = new QHDialogClass(context,R.style.myDialogActivityStyle);
-            View layout = inflater.inflate(R.layout.dialog, null);
-            dialog.addContentView(layout, new ViewGroup.LayoutParams(
-                    ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
-            // set the dialog title
-            NavigationView navigationView = (NavigationView) layout.findViewById(R.id.nav_main_in_dialog);
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            /**
+             * instantiate the dialog with the custom Theme
+             */
+            final QHDialogClass dialog = new QHDialogClass(context,R.style.myDialogActivityStyle);
+            View dialogView = inflater.inflate(R.layout.dialog, null);
+            dialog.addContentView(dialogView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
+            /**
+             * set dialog title
+             */
+            NavigationView navigationView = (NavigationView) dialogView.findViewById(R.id.nav_main_in_dialog);
             navigationView.setBackgroundResource(R.drawable.top_select);
             navigationView.setTitle(title);
             navigationView.setClickCallback(new NavigationView.ClickCallback() {
@@ -188,63 +194,98 @@ public class QHDialogClass extends Dialog {
             });
 
             /**
-             * 设置宽度
+             * set dialog width
              */
             WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
             int width = wm.getDefaultDisplay().getWidth();
-            LinearLayout content = (LinearLayout) layout.findViewById(R.id.content_in_dialog);
+            LinearLayout content = (LinearLayout) dialogView.findViewById(R.id.content_in_dialog);
             int dialogWidth = DensityUtil.px2dip(context, width * 4 / 5);
             if (dialogWidth > 320) dialogWidth = 320;
             content.setLayoutParams(new LinearLayout.LayoutParams(DensityUtil.dip2px(context, dialogWidth) , ViewGroup.LayoutParams.WRAP_CONTENT));
 
-            // set the confirm button
-            if (positiveButtonText != null) {
-                ((Button) layout.findViewById(R.id.left_button_in_dialog))
-                        .setText(positiveButtonText);
-                if (positiveButtonClickListener != null) {
-                    ((Button) layout.findViewById(R.id.left_button_in_dialog))
-                            .setOnClickListener(new View.OnClickListener() {
-                                public void onClick(View v) {
-                                    positiveButtonClickListener.onClick(dialog,
-                                            DialogInterface.BUTTON_POSITIVE);
-                                }
-                            });
+
+
+            Button positiveButton = (Button) dialogView.findViewById(R.id.left_button_in_dialog);
+            Button negativeButton = (Button) dialogView.findViewById(R.id.right_button_in_dialog);
+            int margins = DensityUtil.dip2px(context, 10);
+
+            if (onlyOneButtonText.isEmpty()) {
+                /**
+                 * set the confirm button
+                 */
+                if (positiveButtonText != null) {
+                    positiveButton.setText(positiveButtonText);
+                    if (positiveButtonClickListener != null) {
+                        positiveButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                positiveButtonClickListener.onClick(dialog, DialogInterface.BUTTON_POSITIVE);
+                            }
+                        });
+                    }
+                } else {
+                    // if no confirm button just set the visibility to GONE
+                    positiveButton.setVisibility(View.GONE);
+                    LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) negativeButton.getLayoutParams();
+                    params.setMargins(margins, 0, margins, margins);
+                    negativeButton.setLayoutParams(params);
+                }
+
+                /**
+                 * set the cancel button
+                 */
+                if (negativeButtonText != null) {
+                    negativeButton.setText(negativeButtonText);
+                    if (negativeButtonClickListener != null) {
+                        negativeButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                negativeButtonClickListener.onClick(dialog, DialogInterface.BUTTON_NEGATIVE);
+                            }
+                        });
+                    }
+                } else {
+                    // if no confirm button just set the visibility to GONE
+                    negativeButton.setVisibility(View.GONE);
+                    LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) positiveButton.getLayoutParams();
+                    params.setMargins(margins, 0, margins, margins);
+                    positiveButton.setLayoutParams(params);
                 }
             } else {
-                // if no confirm button just set the visibility to GONE
-                layout.findViewById(R.id.left_button_in_dialog).setVisibility(
-                        View.GONE);
+
+                /**
+                 * only one button
+                 */
+                positiveButton.setVisibility(View.GONE);
+                LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) negativeButton.getLayoutParams();
+                params.setMargins(margins, 0, margins, margins);
+                negativeButton.setLayoutParams(params);
+
+                negativeButton.setText(onlyOneButtonText);
+                negativeButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
             }
-            // set the cancel button
-            if (negativeButtonText != null) {
-                ((Button) layout.findViewById(R.id.right_button_in_dialog))
-                        .setText(negativeButtonText);
-                if (negativeButtonClickListener != null) {
-                    ((Button) layout.findViewById(R.id.right_button_in_dialog))
-                            .setOnClickListener(new View.OnClickListener() {
-                                public void onClick(View v) {
-                                    negativeButtonClickListener.onClick(dialog,
-                                            DialogInterface.BUTTON_NEGATIVE);
-                                }
-                            });
-                }
-            } else {
-                // if no confirm button just set the visibility to GONE
-                layout.findViewById(R.id.right_button_in_dialog).setVisibility(
-                        View.GONE);
-            }
-            // set the content message
+
+
+            /**
+             * set the content message
+             */
+            TextView messageTextView = (TextView) dialogView.findViewById(R.id.textView_in_dialog);
+            LinearLayout contentLayout = (LinearLayout) dialogView.findViewById(R.id.content_in_dialog);
             if (message != null) {
-                ((TextView) layout.findViewById(R.id.textView_in_dialog)).setText(message);
+                messageTextView.setText(message);
             } else if (contentView != null) {
                 // if no message set
                 // add the contentView to the dialog body
-                ((LinearLayout) layout.findViewById(R.id.content_in_dialog))
-                        .removeAllViews();
-                ((LinearLayout) layout.findViewById(R.id.content_in_dialog))
-                        .addView(contentView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+                contentLayout.removeAllViews();
+                contentLayout.addView(contentView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
             }
-            dialog.setContentView(layout);
+
+            dialog.setContentView(dialogView);
             dialog.setCancelable(mCancelable);
             return dialog;
         }

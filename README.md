@@ -3,8 +3,6 @@ qhdialog
 
 [![](https://jitpack.io/v/qiuh1016/qhdialog.svg)](https://jitpack.io/#qiuh1016/qhdialog)
 
-[TOC]
-
 Install
 ------------
 
@@ -22,23 +20,29 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:v1.0.1'
+	        compile 'com.github.qiuh1016:qhdialog:v1.0.2'
 	}
 
 
 
-Demo
+Usage
 --------------
 
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
-        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener(){
             @Override
-            public void onClick(DialogInterface dialog, int which) {
+            public void onClick(DialogInterface dialog, int which){
                 Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });
         qhDialog.setNegativeButton("cancel", null);
+        qhDialog.show();
+
+If there's only one button and no clickListener:
+
+        QHDialog qhDialog = new QHDialog(this,"Title", "Message");
+        qhDialog.setOnlyOneButtonText("OK");
         qhDialog.show();
 
 Contact me
