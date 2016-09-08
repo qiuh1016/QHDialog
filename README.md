@@ -18,21 +18,20 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:v1.0'
+	        compile 'com.github.qiuh1016:qhdialog:v1.0.1'
 	}
 
 
 
 Demo:
 
-        QHDialog.Builder builder = new QHDialog.Builder(this);
-        builder.setTitle("Title");
-        builder.setMessage("message");
-        builder.setCancelable(false);
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        QHDialog qhDialog = new QHDialog(this,"Title", "Message");
+        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
             public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss(); //Don't forget to add this line
-                }
-            });
-        builder.setNegativeButton("Cancel", null);
-        builder.create().show();
+                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
+        qhDialog.setNegativeButton("cancel", null);
+        qhDialog.show();
