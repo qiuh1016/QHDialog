@@ -3,7 +3,6 @@ package com.qiuhong.qhdialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +11,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.qiuhong.qhdialog.Utils.DensityUtil;
 
 /**
  * Created by qiuhong on 9/4/16.
