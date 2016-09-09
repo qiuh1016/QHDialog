@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QHDialogDemo.iml" filepath="$PROJECT_DIR$/QHDialogDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qhdialog/qhdialog.iml" filepath="$PROJECT_DIR$/qhdialog/qhdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qhdialog/qhdialog.iml" filepath="$PROJECT_DIR$/qhdialog/qhdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qhlibrary/qhlibrary.iml" filepath="$PROJECT_DIR$/qhlibrary/qhlibrary.iml" />
     </modules>
   </component>
 </project>

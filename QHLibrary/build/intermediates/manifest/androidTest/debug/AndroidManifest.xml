@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qiuhong.qhdialog.test" >
+    package="com.qiuhong.qhlibrary.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -11,7 +11,7 @@
         android:functionalTest="false"
         android:handleProfiling="false"
         android:label="Tests for com.qiuhong.qhlibrary.test"
-        android:targetPackage="com.qiuhong.qhdialog.test" />
+        android:targetPackage="com.qiuhong.qhlibrary.test" />
 
     <application
         android:allowBackup="true"

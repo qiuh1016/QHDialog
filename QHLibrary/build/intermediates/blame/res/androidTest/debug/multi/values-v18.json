@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/QHLibrary/build/intermediates/res/merged/androidTest/debug/values-v18/values-v18.xml",
+        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/values-v18/values-v18.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/qiuhong/Desktop/QHDialogDemo/QHLibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v18/values-v18.xml",
+                    "file": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v18/values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
