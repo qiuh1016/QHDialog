@@ -1,12 +1,10 @@
 package com.qiuhong.qhdialogdemo;
 
-import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
-import com.qiuhong.qhdialog.QHDialog;
+import com.qiuhong.qhlibrary.QHDialog;
 
 public class MainActivity extends AppCompatActivity {
 

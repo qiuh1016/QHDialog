@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.qiuhong.qhdialog;
+package com.qiuhong.qhlibrary;
 
 public final class R {
     public static final class anim {
@@ -2182,7 +2182,7 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010054
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#background}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2192,7 +2192,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2204,7 +2204,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2216,7 +2216,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2232,7 +2232,7 @@ containing a value of this type.
         */
         public static int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2248,7 +2248,7 @@ containing a value of this type.
         */
         public static int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2264,7 +2264,7 @@ containing a value of this type.
         */
         public static int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2280,7 +2280,7 @@ containing a value of this type.
         */
         public static int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2290,7 +2290,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2312,7 +2312,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2322,7 +2322,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2338,7 +2338,7 @@ containing a value of this type.
         */
         public static int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#height}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2354,7 +2354,7 @@ containing a value of this type.
         */
         public static int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2368,7 +2368,7 @@ containing a value of this type.
         */
         public static int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2378,7 +2378,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2388,7 +2388,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2398,7 +2398,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2408,7 +2408,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2424,7 +2424,7 @@ containing a value of this type.
         */
         public static int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2434,7 +2434,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2452,7 +2452,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2462,7 +2462,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2478,7 +2478,7 @@ containing a value of this type.
         */
         public static int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2488,7 +2488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2502,7 +2502,7 @@ containing a value of this type.
         */
         public static int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2512,7 +2512,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#title}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2526,7 +2526,7 @@ containing a value of this type.
         */
         public static int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2603,7 +2603,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#background}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2613,7 +2613,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2625,7 +2625,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2635,7 +2635,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#height}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2651,7 +2651,7 @@ containing a value of this type.
         */
         public static int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2661,7 +2661,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2686,7 +2686,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2696,7 +2696,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2740,7 +2740,7 @@ containing a value of this type.
         */
         public static int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -2750,7 +2750,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -2760,7 +2760,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -2770,7 +2770,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -2780,7 +2780,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
@@ -2811,7 +2811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
@@ -2842,7 +2842,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
@@ -3115,7 +3115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3125,7 +3125,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3135,7 +3135,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3145,7 +3145,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3169,7 +3169,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3179,7 +3179,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3189,7 +3189,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3199,7 +3199,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3209,7 +3209,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3219,7 +3219,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3229,7 +3229,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3239,7 +3239,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3249,7 +3249,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3259,7 +3259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3269,7 +3269,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3281,7 +3281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3291,7 +3291,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3301,7 +3301,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3311,7 +3311,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3321,7 +3321,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3331,7 +3331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3341,7 +3341,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3351,7 +3351,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3361,7 +3361,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3371,7 +3371,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3381,7 +3381,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3391,7 +3391,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3401,7 +3401,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3411,7 +3411,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3421,7 +3421,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3431,7 +3431,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3441,7 +3441,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3451,7 +3451,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3465,7 +3465,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3475,7 +3475,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3497,7 +3497,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3507,7 +3507,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3517,7 +3517,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3527,7 +3527,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3537,7 +3537,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3547,7 +3547,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3557,7 +3557,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3567,7 +3567,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3577,7 +3577,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3587,7 +3587,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3597,7 +3597,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3607,7 +3607,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3622,7 +3622,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3637,7 +3637,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3652,7 +3652,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3667,7 +3667,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3682,7 +3682,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3697,7 +3697,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3712,7 +3712,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3727,7 +3727,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3737,7 +3737,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3753,7 +3753,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3763,7 +3763,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3773,7 +3773,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3783,7 +3783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3793,7 +3793,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3809,7 +3809,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3819,7 +3819,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3831,7 +3831,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3841,7 +3841,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3851,7 +3851,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3861,7 +3861,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3871,7 +3871,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3881,7 +3881,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3891,7 +3891,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3907,7 +3907,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3923,7 +3923,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3939,7 +3939,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3955,7 +3955,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3971,7 +3971,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3981,7 +3981,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3991,7 +3991,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4007,7 +4007,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4017,7 +4017,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4027,7 +4027,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4037,7 +4037,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4047,7 +4047,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4057,7 +4057,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4067,7 +4067,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4077,7 +4077,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4087,7 +4087,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4097,7 +4097,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4107,7 +4107,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4117,7 +4117,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4127,7 +4127,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4137,7 +4137,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4147,7 +4147,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4157,7 +4157,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4167,7 +4167,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4177,7 +4177,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4187,7 +4187,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4197,7 +4197,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4209,7 +4209,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4221,7 +4221,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4231,7 +4231,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4241,7 +4241,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4255,7 +4255,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4269,7 +4269,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4283,7 +4283,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4302,7 +4302,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4321,7 +4321,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4340,7 +4340,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4359,7 +4359,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4378,7 +4378,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4397,7 +4397,7 @@ containing a value of this type.
         */
         public static int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4424,7 +4424,7 @@ containing a value of this type.
             0x7f010094
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -4461,7 +4461,7 @@ containing a value of this type.
         */
         public static int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4476,7 +4476,7 @@ containing a value of this type.
         */
         public static int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4524,7 +4524,7 @@ containing a value of this type.
             0x7f01009b, 0x7f01009c, 0x7f01009d, 0x7f01009e
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4540,7 +4540,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4556,7 +4556,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4572,7 +4572,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#color}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4587,7 +4587,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4603,7 +4603,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4619,7 +4619,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4633,7 +4633,7 @@ containing a value of this type.
         */
         public static int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4710,7 +4710,7 @@ containing a value of this type.
         */
         public static int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4720,7 +4720,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4736,7 +4736,7 @@ containing a value of this type.
         */
         public static int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4750,7 +4750,7 @@ containing a value of this type.
         */
         public static int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4948,7 +4948,7 @@ containing a value of this type.
             0x7f0100a5
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4958,7 +4958,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4972,7 +4972,7 @@ containing a value of this type.
         */
         public static int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5064,7 +5064,7 @@ containing a value of this type.
         */
         public static int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5154,7 +5154,7 @@ containing a value of this type.
         */
         public static int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5189,7 +5189,7 @@ containing a value of this type.
         */
         public static int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -5216,7 +5216,7 @@ containing a value of this type.
             0x7f0100a8
         };
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -5303,7 +5303,7 @@ containing a value of this type.
         */
         public static int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5313,7 +5313,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5323,7 +5323,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5337,7 +5337,7 @@ containing a value of this type.
         */
         public static int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5347,7 +5347,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5361,7 +5361,7 @@ containing a value of this type.
         */
         public static int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5371,7 +5371,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5381,7 +5381,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5395,7 +5395,7 @@ containing a value of this type.
         */
         public static int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5405,7 +5405,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5415,7 +5415,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5425,7 +5425,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5435,7 +5435,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5491,7 +5491,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -5552,7 +5552,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5566,7 +5566,7 @@ containing a value of this type.
         */
         public static int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5580,7 +5580,7 @@ containing a value of this type.
         */
         public static int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5596,7 +5596,7 @@ containing a value of this type.
         */
         public static int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5612,7 +5612,7 @@ containing a value of this type.
         */
         public static int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5622,7 +5622,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5638,7 +5638,7 @@ containing a value of this type.
         */
         public static int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#track}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5727,7 +5727,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
@@ -5817,7 +5817,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5831,7 +5831,7 @@ containing a value of this type.
         */
         public static int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5841,7 +5841,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5857,7 +5857,7 @@ containing a value of this type.
         */
         public static int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5873,7 +5873,7 @@ containing a value of this type.
         */
         public static int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5889,7 +5889,7 @@ containing a value of this type.
         */
         public static int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5905,7 +5905,7 @@ containing a value of this type.
         */
         public static int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5915,7 +5915,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5929,7 +5929,7 @@ containing a value of this type.
         */
         public static int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5945,7 +5945,7 @@ containing a value of this type.
         */
         public static int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5959,7 +5959,7 @@ containing a value of this type.
         */
         public static int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5969,7 +5969,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5979,7 +5979,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5993,7 +5993,7 @@ containing a value of this type.
         */
         public static int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6003,7 +6003,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6018,7 +6018,7 @@ containing a value of this type.
         */
         public static int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#title}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6032,7 +6032,7 @@ containing a value of this type.
         */
         public static int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6048,7 +6048,7 @@ containing a value of this type.
         */
         public static int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6064,7 +6064,7 @@ containing a value of this type.
         */
         public static int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6080,7 +6080,7 @@ containing a value of this type.
         */
         public static int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6096,7 +6096,7 @@ containing a value of this type.
         */
         public static int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6112,7 +6112,7 @@ containing a value of this type.
         */
         public static int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6122,7 +6122,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6171,7 +6171,7 @@ containing a value of this type.
         */
         public static int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6187,7 +6187,7 @@ containing a value of this type.
         */
         public static int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6203,7 +6203,7 @@ containing a value of this type.
         */
         public static int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6236,7 +6236,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6251,7 +6251,7 @@ containing a value of this type.
         */
         public static int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.qiuhong.qhdialog.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.qiuhong.qhlibrary.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 

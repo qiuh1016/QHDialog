@@ -1,4 +1,4 @@
-package com.qiuhong.qhdialog;
+package com.qiuhong.qhlibrary;
 
 import org.junit.Test;
 

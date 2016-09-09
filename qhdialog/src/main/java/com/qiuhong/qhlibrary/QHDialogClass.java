@@ -1,4 +1,4 @@
-package com.qiuhong.qhdialog;
+package com.qiuhong.qhlibrary;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qiuhong.qhdialog.Utils.DensityUtil;
+import com.qiuhong.qhlibrary.Utils.DensityUtil;
 
 /**
  * Created by qiuhong on 9/4/16.

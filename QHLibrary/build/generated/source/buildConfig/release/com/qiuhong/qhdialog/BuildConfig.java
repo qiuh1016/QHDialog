@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.qiuhong.qhdialog;
+package com.qiuhong.qhlibrary;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;

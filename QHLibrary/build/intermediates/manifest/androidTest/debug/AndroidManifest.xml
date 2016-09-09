@@ -10,7 +10,7 @@
         android:name="android.test.InstrumentationTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.qiuhong.qhdialog.test"
+        android:label="Tests for com.qiuhong.qhlibrary.test"
         android:targetPackage="com.qiuhong.qhdialog.test" />
 
     <application

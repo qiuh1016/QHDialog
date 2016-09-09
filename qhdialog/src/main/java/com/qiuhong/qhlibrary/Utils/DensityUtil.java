@@ -1,4 +1,4 @@
-package com.qiuhong.qhdialog.Utils;
+package com.qiuhong.qhlibrary.Utils;
 
 /**
  * Created by qiuhong on 9/1/16.
