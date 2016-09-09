@@ -1,4 +1,4 @@
-package com.qiuhong.qhlibrary.NavigationView;
+package com.qiuhong.qhdialog;
 
 /**
  * Created by qiuhong on 8/24/16.
@@ -34,15 +34,15 @@ public class NavigationView extends RelativeLayout implements View.OnClickListen
 
     public NavigationView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        View view = LayoutInflater.from(context).inflate(com.qiuhong.qhlibrary.R.layout.navigation_view, this, true);
+        View view = LayoutInflater.from(context).inflate(R.layout.navigation_view, this, true);
 
-        backView = (ImageView) view.findViewById(com.qiuhong.qhlibrary.R.id.iv_nav_back);
+        backView = (ImageView) view.findViewById(R.id.iv_nav_back);
         backView.setOnClickListener(this);
-        rightView = (ImageView) view.findViewById(com.qiuhong.qhlibrary.R.id.iv_nav_right);
+        rightView = (ImageView) view.findViewById(R.id.iv_nav_right);
         rightView.setOnClickListener(this);
 
-        titleView = (TextView) view.findViewById(com.qiuhong.qhlibrary.R.id.tv_nav_title);
-        backgroundLayout = (RelativeLayout) view.findViewById(com.qiuhong.qhlibrary.R.id.iv_nav_layout);
+        titleView = (TextView) view.findViewById(R.id.tv_nav_title);
+        backgroundLayout = (RelativeLayout) view.findViewById(R.id.iv_nav_layout);
 
     }
 
@@ -136,11 +136,11 @@ public class NavigationView extends RelativeLayout implements View.OnClickListen
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == com.qiuhong.qhlibrary.R.id.iv_nav_back) {
+        if (id == R.id.iv_nav_back) {
             callback.onBackClick();
             return;
         }
-        if (id == com.qiuhong.qhlibrary.R.id.iv_nav_right) {
+        if (id == R.id.iv_nav_right) {
             callback.onRightClick();
             return;
         }

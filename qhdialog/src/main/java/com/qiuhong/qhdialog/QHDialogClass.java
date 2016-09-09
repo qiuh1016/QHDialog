@@ -1,4 +1,4 @@
-package com.qiuhong.qhlibrary.Dialog;
+package com.qiuhong.qhdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -12,8 +12,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qiuhong.qhlibrary.NavigationView.NavigationView;
-import com.qiuhong.qhlibrary.Utils.DensityUtil;
+import com.qiuhong.qhdialog.Utils.DensityUtil;
 
 /**
  * Created by qiuhong on 9/4/16.
@@ -173,15 +172,15 @@ public class QHDialogClass extends Dialog {
             /**
              * instantiate the dialog with the custom Theme
              */
-            final QHDialogClass dialog = new QHDialogClass(context, R.style.myDialogActivityStyle);
-            View dialogView = inflater.inflate(com.qiuhong.qhlibrary.R.layout.dialog, null);
+            final QHDialogClass dialog = new QHDialogClass(context,R.style.myDialogActivityStyle);
+            View dialogView = inflater.inflate(R.layout.dialog, null);
             dialog.addContentView(dialogView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
             /**
              * set dialog title
              */
-            NavigationView navigationView = (NavigationView) dialogView.findViewById(com.qiuhong.qhlibrary.R.id.nav_main_in_dialog);
-            navigationView.setBackgroundResource(com.qiuhong.qhlibrary.R.drawable.top_select);
+            NavigationView navigationView = (NavigationView) dialogView.findViewById(R.id.nav_main_in_dialog);
+            navigationView.setBackgroundResource(R.drawable.top_select);
             navigationView.setTitle(title);
             navigationView.setClickCallback(new NavigationView.ClickCallback() {
                 @Override
@@ -276,8 +275,8 @@ public class QHDialogClass extends Dialog {
             /**
              * set the content message
              */
-            TextView messageTextView = (TextView) dialogView.findViewById(com.qiuhong.qhlibrary.R.id.textView_in_dialog);
-            LinearLayout contentLayout = (LinearLayout) dialogView.findViewById(com.qiuhong.qhlibrary.R.id.content_in_dialog);
+            TextView messageTextView = (TextView) dialogView.findViewById(R.id.textView_in_dialog);
+            LinearLayout contentLayout = (LinearLayout) dialogView.findViewById(R.id.content_in_dialog);
             if (message != null) {
                 messageTextView.setText(message);
             } else if (contentView != null) {

@@ -1,4 +1,4 @@
-package com.qiuhong.qhlibrary.Dialog;
+package com.qiuhong.qhdialog;
 
 import android.content.Context;
 import android.content.DialogInterface;

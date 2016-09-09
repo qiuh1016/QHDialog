@@ -1,4 +1,4 @@
-package com.qiuhong.qhlibrary.Utils;
+package com.qiuhong.qhdialog.Utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
