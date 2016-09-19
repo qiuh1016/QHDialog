@@ -36,7 +36,7 @@ public class QHDialogClass extends Dialog {
         private String message;
         private String positiveButtonText;
         private String negativeButtonText;
-        private String onlyOneButtonText;
+        private String onlyOneButtonText = "";
         private boolean mCancelable;
 
         private View contentView;
