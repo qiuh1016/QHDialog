@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.qiuhong.qhlibrary.Dialog.QHDialog;
@@ -25,30 +26,30 @@ public class MainActivity extends AppCompatActivity {
 
     public void textViewClicker(View v) {
 
-//        QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
-////        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
-////            @Override
-////            public void onClick(DialogInterface dialog, int which) {
-////                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
-////                dialog.dismiss();
-////            }
-////        });
-////        qhDialog.setNegativeButton("cancel", null);
+        QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
+        qhDialog.setPositiveButton("删除", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
+        qhDialog.setNegativeButton("取消", null);
 //        qhDialog.setOnlyOneButtonText("Yes, it is!");
-//        qhDialog.setCancelable(false);
-//        qhDialog.show();
+        qhDialog.setCancelable(false);
+        qhDialog.show();
 
-        QHDialog d = new QHDialog(this);
-
-        View view = LayoutInflater.from(this).inflate(R.layout.progress_bar, null);
-        progressBar = (RoundCornerProgressBar) view.findViewById(R.id.progressBar);
-        progressTextView = (TextView) view.findViewById(R.id.progressTextView);
-        d.setContextView(view);
-        d.setPositiveButton("ok",null);
-        d.setCancelable(false);
-        d.show();
-
-        new Thread(new CountDown()).start();
+//        QHDialog d = new QHDialog(this);
+//
+//        View view = LayoutInflater.from(this).inflate(R.layout.progress_bar, null);
+//        progressBar = (RoundCornerProgressBar) view.findViewById(R.id.progressBar);
+//        progressTextView = (TextView) view.findViewById(R.id.progressTextView);
+//        d.setContextView(view);
+//        d.setPositiveButton("ok",null);
+//        d.setCancelable(false);
+//        d.show();
+//
+//        new Thread(new CountDown()).start();
 
 //        View view = LayoutInflater.from(this).inflate(R.layout.progress_bar, null);
 ////        progressBar = (ProgressBar) view.findViewById(R.id.progressBar);

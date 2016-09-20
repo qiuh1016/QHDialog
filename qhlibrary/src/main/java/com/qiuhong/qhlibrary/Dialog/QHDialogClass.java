@@ -227,6 +227,9 @@ public class QHDialogClass extends Dialog {
                             }
                         });
                     }
+                    if (positiveButtonText.equals("删除") || positiveButtonText.equals("DELETE")) {
+                        positiveButton.setBackgroundResource(R.drawable.single_select_red);
+                    }
                 } else {
                     // if no confirm button just set the visibility to GONE
                     positiveButton.setVisibility(View.GONE);
