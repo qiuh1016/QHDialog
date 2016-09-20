@@ -136,9 +136,7 @@ public class QHDialogClass extends Dialog {
             } else {
                 this.positiveButtonClickListener = listener;
             }
-            if (this.positiveButtonBackgroundResource != 0) {
-                this.positiveButtonBackgroundResource = positiveButtonBackgroundResource;
-            }
+            this.positiveButtonBackgroundResource = positiveButtonBackgroundResource;
             return this;
         }
 
@@ -170,9 +168,7 @@ public class QHDialogClass extends Dialog {
             } else {
                 this.negativeButtonClickListener = listener;
             }
-            if (negativeButtonBackgroundResource != 0) {
-                this.negativeButtonBackgroundResource = negativeButtonBackgroundResource;
-            }
+            this.negativeButtonBackgroundResource = negativeButtonBackgroundResource;
             return this;
         }
 

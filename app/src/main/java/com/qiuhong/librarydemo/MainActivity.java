@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void textViewClicker(View v) {
 
         QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
-        qhDialog.setPositiveButton("删除", 0, new DialogInterface.OnClickListener() {
+        qhDialog.setPositiveButton("删除", com.qiuhong.qhlibrary.R.drawable.single_select_alert, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
