@@ -450,7 +450,7 @@ int drawable abc_textfield_search_material 0x7f02004a
 int drawable bottom_unselect 0x7f02004b
 int drawable notification_template_icon_bg 0x7f02004f
 int drawable single_select 0x7f02004c
-int drawable single_select_red 0x7f02004d
+int drawable single_select_alert 0x7f02004d
 int drawable top_select 0x7f02004e
 int id action0 0x7f0b005a
 int id action_bar 0x7f0b0041

@@ -43,6 +43,9 @@ public class QHDialogClass extends Dialog {
         private OnClickListener positiveButtonClickListener;
         private OnClickListener negativeButtonClickListener;
 
+        private int positiveButtonBackgroundResource;
+        private int negativeButtonBackgroundResource;
+
         public Builder(Context context) {
             this.context = context;
         }
@@ -121,7 +124,7 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
-        public Builder setPositiveButton(String positiveButtonText, OnClickListener listener) {
+        public Builder setPositiveButton(String positiveButtonText, int positiveButtonBackgroundResource, OnClickListener listener) {
             this.positiveButtonText = positiveButtonText;
             this.positiveButtonClickListener = listener;
             if (listener == null) {
@@ -132,6 +135,9 @@ public class QHDialogClass extends Dialog {
                 };
             } else {
                 this.positiveButtonClickListener = listener;
+            }
+            if (this.positiveButtonBackgroundResource != 0) {
+                this.positiveButtonBackgroundResource = positiveButtonBackgroundResource;
             }
             return this;
         }
@@ -153,7 +159,7 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
-        public Builder setNegativeButton(String negativeButtonText, OnClickListener listener) {
+        public Builder setNegativeButton(String negativeButtonText,int negativeButtonBackgroundResource, OnClickListener listener) {
             this.negativeButtonText = negativeButtonText;
             if (listener == null) {
                 this.negativeButtonClickListener = new OnClickListener() {
@@ -163,6 +169,9 @@ public class QHDialogClass extends Dialog {
                 };
             } else {
                 this.negativeButtonClickListener = listener;
+            }
+            if (negativeButtonBackgroundResource != 0) {
+                this.negativeButtonBackgroundResource = negativeButtonBackgroundResource;
             }
             return this;
         }
@@ -227,8 +236,8 @@ public class QHDialogClass extends Dialog {
                             }
                         });
                     }
-                    if (positiveButtonText.equals("删除") || positiveButtonText.equals("DELETE")) {
-                        positiveButton.setBackgroundResource(R.drawable.single_select_alert);
+                    if (positiveButtonBackgroundResource != 0) {
+                        positiveButton.setBackgroundResource(positiveButtonBackgroundResource);
                     }
                 } else {
                     // if no confirm button just set the visibility to GONE
@@ -250,6 +259,9 @@ public class QHDialogClass extends Dialog {
                                 negativeButtonClickListener.onClick(dialog, DialogInterface.BUTTON_NEGATIVE);
                             }
                         });
+                    }
+                    if (negativeButtonBackgroundResource != 0) {
+                        negativeButton.setBackgroundResource(negativeButtonBackgroundResource);
                     }
                 } else {
                     // if no confirm button just set the visibility to GONE

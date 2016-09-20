@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:1.0.8'
+	        compile 'com.github.qiuh1016:qhdialog:1.0.9'
 	}
 
 
@@ -33,14 +33,14 @@ Usage
 --------------
 
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
-        qhDialog.setPositiveButton("ok", new DialogInterface.OnClickListener(){
+        qhDialog.setPositiveButton("ok", 0, new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which){
                 Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });
-        qhDialog.setNegativeButton("cancel", null);
+        qhDialog.setNegativeButton("cancel", 0, null);
         qhDialog.show();
 
 If there's only one button and no clickListener:
