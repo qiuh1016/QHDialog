@@ -45,6 +45,7 @@ public class QHDialogClass extends Dialog {
 
         private int positiveButtonBackgroundResource;
         private int negativeButtonBackgroundResource;
+        private int navigationBackgroundResource;
 
         public Builder(Context context) {
             this.context = context;
@@ -140,6 +141,21 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
+        public Builder setPositiveButton(String positiveButtonText, OnClickListener listener) {
+            this.positiveButtonText = positiveButtonText;
+            this.positiveButtonClickListener = listener;
+            if (listener == null) {
+                this.positiveButtonClickListener = new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                };
+            } else {
+                this.positiveButtonClickListener = listener;
+            }
+            return this;
+        }
+
         public Builder setNegativeButton(int negativeButtonText, OnClickListener listener) {
             this.negativeButtonText = (String) context
                     .getText(negativeButtonText);
@@ -172,6 +188,25 @@ public class QHDialogClass extends Dialog {
             return this;
         }
 
+        public Builder setNegativeButton(String negativeButtonText, OnClickListener listener) {
+            this.negativeButtonText = negativeButtonText;
+            if (listener == null) {
+                this.negativeButtonClickListener = new OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                };
+            } else {
+                this.negativeButtonClickListener = listener;
+            }
+            return this;
+        }
+
+        public Builder setNavigationBackgroundResource(int backgroundResource) {
+            this.navigationBackgroundResource = backgroundResource;
+            return this;
+        }
+
         public QHDialogClass create() {
 
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -187,7 +222,11 @@ public class QHDialogClass extends Dialog {
              * set dialog title
              */
             NavigationView navigationView = (NavigationView) dialogView.findViewById(R.id.nav_main_in_dialog);
-            navigationView.setBackgroundResource(R.drawable.top_select);
+            if (navigationBackgroundResource != 0) {
+                navigationView.setBackgroundResource(navigationBackgroundResource);
+            } else {
+                navigationView.setBackgroundResource(R.drawable.top_select);
+            }
             navigationView.setTitle(title);
             navigationView.setClickCallback(new NavigationView.ClickCallback() {
                 @Override

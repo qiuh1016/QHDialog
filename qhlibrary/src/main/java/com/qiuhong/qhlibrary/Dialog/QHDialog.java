@@ -54,8 +54,20 @@ public class QHDialog {
         builder.setPositiveButton(text, backgroundResource, listener);
     }
 
+    public void setPositiveButton(String text, DialogInterface.OnClickListener listener) {
+        builder.setPositiveButton(text, listener);
+    }
+
     public void setNegativeButton(String text, int backgroundResource, DialogInterface.OnClickListener listener) {
         builder.setNegativeButton(text, backgroundResource, listener);
+    }
+
+    public void setNegativeButton(String text, DialogInterface.OnClickListener listener) {
+        builder.setNegativeButton(text, listener);
+    }
+
+    public void setNavigationBackgroundResource(int backgroundResource) {
+        builder.setNavigationBackgroundResource(backgroundResource);
     }
 
     public void setCancelable(boolean cancelable) {

@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
-        qhDialog.setNegativeButton("取消", 0, null);
+        qhDialog.setNegativeButton("取消", null);
+        qhDialog.setNavigationBackgroundResource(R.drawable.top_select);
 //        qhDialog.setOnlyOneButtonText("Yes, it is!");
-        qhDialog.setCancelable(false);
         qhDialog.show();
 
 //        QHDialog d = new QHDialog(this);
