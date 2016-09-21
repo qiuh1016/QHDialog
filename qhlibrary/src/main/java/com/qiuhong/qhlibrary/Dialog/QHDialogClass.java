@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.qiuhong.qhlibrary.NavigationView.NavigationView;
+import com.qiuhong.qhlibrary.QHTitleView.QHTitleView;
 import com.qiuhong.qhlibrary.R;
 import com.qiuhong.qhlibrary.Utils.DensityUtil;
 
@@ -221,14 +221,14 @@ public class QHDialogClass extends Dialog {
             /**
              * set dialog title
              */
-            NavigationView navigationView = (NavigationView) dialogView.findViewById(R.id.nav_main_in_dialog);
+            QHTitleView qHTitleView = (QHTitleView) dialogView.findViewById(R.id.nav_main_in_dialog);
             if (navigationBackgroundResource != 0) {
-                navigationView.setBackgroundResource(navigationBackgroundResource);
+                qHTitleView.setBackgroundResource(navigationBackgroundResource);
             } else {
-                navigationView.setBackgroundResource(R.drawable.top_select);
+                qHTitleView.setBackgroundResource(R.drawable.top_select);
             }
-            navigationView.setTitle(title);
-            navigationView.setClickCallback(new NavigationView.ClickCallback() {
+            qHTitleView.setTitle(title);
+            qHTitleView.setClickCallback(new QHTitleView.ClickCallback() {
                 @Override
                 public void onRightClick() {
                     Log.i("main","点击了右侧按钮!");

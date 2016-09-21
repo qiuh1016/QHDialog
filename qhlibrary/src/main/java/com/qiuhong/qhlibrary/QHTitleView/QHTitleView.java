@@ -1,4 +1,4 @@
-package com.qiuhong.qhlibrary.NavigationView;
+package com.qiuhong.qhlibrary.QHTitleView;
 
 /**
  * Created by qiuhong on 8/24/16.
@@ -23,9 +23,9 @@ import com.qiuhong.qhlibrary.R;
  * @author Asia
  *
  */
-public class NavigationView extends RelativeLayout implements View.OnClickListener {
+public class QHTitleView extends RelativeLayout implements View.OnClickListener {
 
-    public NavigationView(Context context){
+    public QHTitleView(Context context){
         this(context, null);
     }
 
@@ -34,7 +34,7 @@ public class NavigationView extends RelativeLayout implements View.OnClickListen
     private TextView titleView;
     private ImageView rightView;
 
-    public NavigationView(Context context, AttributeSet attrs) {
+    public QHTitleView(Context context, AttributeSet attrs) {
         super(context, attrs);
         View view = LayoutInflater.from(context).inflate(R.layout.navigation_view, this, true);
 

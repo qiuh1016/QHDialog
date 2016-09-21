@@ -1,32 +1,6 @@
 [
     {
-        "outputFile": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/release/values-hdpi-v4/values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 13,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-hdpi-v4/values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 13,
-                        "endOffset": 327
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/res/merged/release/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -39,32 +13,6 @@
                 },
                 "from": {
                     "file": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-hdpi-v4/values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 13,
-                        "endOffset": 327
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/qhdialog/build/intermediates/res/merged/release/values-hdpi-v4/values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 13,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "/Users/qiuhong/Desktop/QHDialogDemo/qhdialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
