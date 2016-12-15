@@ -24,12 +24,12 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:1.0.9'
+	        compile 'com.github.qiuh1016:qhdialog:1.1.3'
 	}
 
 
 
-Usage
+Usage-Dialog
 --------------
 
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
@@ -48,6 +48,37 @@ If there's only one button and no clickListener:
         QHDialog qhDialog = new QHDialog(this,"Title", "Message");
         qhDialog.setOnlyOneButtonText("OK");
         qhDialog.show();
+
+
+Usage-TitleView
+--------------
+color：
+
+        <color name="tab_text_selected">#0FA474</color>
+xml：
+        
+        <com.qiuhong.qhlibrary.QHTitleView.QHTitleView
+            android:id="@+id/main_QHTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+Activity：
+
+        qhTitleView = (QHTitleView) findViewById(R.id.main_QHTitleView);
+        qhTitleView.setTitle("main");
+        qhTitleView.setBackView(0);
+        qhTitleView.setRightView(0);
+        qhTitleView.setClickCallback(new QHTitleView.ClickCallback() {
+            @Override
+            public void onBackClick() {
+                //
+            }
+            
+            @Override
+            public void onRightClick() {
+                //
+            }
+        });
 
 Contact me
 -------------
