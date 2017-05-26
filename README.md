@@ -1,7 +1,7 @@
-qhdialog
+qhLibrary
 ============
 
-[![](https://jitpack.io/v/qiuh1016/qhdialog.svg)](https://jitpack.io/#qiuh1016/qhdialog)
+[![](https://jitpack.io/v/qiuh1016/qhLibrary.svg)](https://jitpack.io/#qiuh1016/qhLibrary)
 
 <!-- ![](pic.png =100*80) -->
 
