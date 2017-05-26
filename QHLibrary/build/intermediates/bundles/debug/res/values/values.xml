@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="QHTitleColor">#157CFB</color>
     <color name="red">#F93B44</color>
-    <color name="tab_text_selected">#157CFB</color>
     <string name="app_name">QHLibrary</string>
     <style name="myDialogActivityStyle">
         <item name="android:windowBackground">@android:color/transparent</item>

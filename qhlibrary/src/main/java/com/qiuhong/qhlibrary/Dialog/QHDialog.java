@@ -17,6 +17,9 @@ public class QHDialog {
     private String title;
     private String message;
 
+    private boolean needOneEditText = false;
+    private String placeHolder = "";
+
     private String TAG = "QHDialog";
 
     public QHDialog(Context context) {
@@ -34,6 +37,7 @@ public class QHDialog {
         builder.setMessage(message);
         builder.setCancelable(cancelable);
         builder.setContentView(contentView);
+        builder.setEditText(needOneEditText, placeHolder);
         qhDialog = builder.create();
         qhDialog.show();
     }
@@ -76,6 +80,15 @@ public class QHDialog {
 
     public void setContextView(View v) {
         this.contentView = v;
+    }
+
+    public void setEditText(String placeHolder) {
+        this.needOneEditText = true;
+        this.placeHolder = placeHolder;
+    }
+
+    public String getEditTextText() {
+        return builder.editText.getText().toString();
     }
 
 }

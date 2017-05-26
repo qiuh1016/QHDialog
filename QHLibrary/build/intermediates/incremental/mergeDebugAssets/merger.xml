@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/src/main/assets"/><source path="/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/src/main/assets"/><source path="/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/src/debug/assets"/></dataSet></merger>

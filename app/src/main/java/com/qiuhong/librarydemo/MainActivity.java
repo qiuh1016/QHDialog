@@ -1,17 +1,14 @@
 package com.qiuhong.librarydemo;
 
 import android.content.DialogInterface;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.qiuhong.qhlibrary.Dialog.QHDialog;
-import com.qiuhong.qhlibrary.Dialog.QHDialogClass;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,21 +19,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
     }
 
     public void textViewClicker(View v) {
 
-        QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
+        final QHDialog qhDialog = new QHDialog(this,"TIP", "This is a beautiful dialog!");
         qhDialog.setPositiveButton("删除", com.qiuhong.qhlibrary.R.drawable.single_select_alert, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, qhDialog.getEditTextText(), Toast.LENGTH_SHORT).show();
+
                 dialog.dismiss();
             }
         });
         qhDialog.setNegativeButton("取消", null);
-        qhDialog.setNavigationBackgroundResource(R.drawable.top_select);
+//        qhDialog.setNavigationBackgroundResource(R.drawable.top_select);
 //        qhDialog.setOnlyOneButtonText("Yes, it is!");
+        qhDialog.setEditText("输入0-99");
         qhDialog.show();
 
 //        QHDialog d = new QHDialog(this);

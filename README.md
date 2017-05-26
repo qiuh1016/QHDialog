@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:1.1.3'
+	        compile 'com.github.qiuh1016:qhdialog:1.2.0'
 	}
 
 
@@ -49,6 +49,14 @@ If there's only one button and no clickListener:
         qhDialog.setOnlyOneButtonText("OK");
         qhDialog.show();
 
+
+If you need one EditText：
+        
+        qhDialog.setEditText("hint text");
+
+and to get the String：
+
+        qhDialog.getEditTextText();
 
 Usage-TitleView
 --------------

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -38,6 +39,8 @@ public class QHDialogClass extends Dialog {
         private String negativeButtonText;
         private String onlyOneButtonText = "";
         private boolean mCancelable;
+        private boolean needOneEditText;
+        private String placeHolder = "";
 
         private View contentView;
         private OnClickListener positiveButtonClickListener;
@@ -46,6 +49,8 @@ public class QHDialogClass extends Dialog {
         private int positiveButtonBackgroundResource;
         private int negativeButtonBackgroundResource;
         private int navigationBackgroundResource;
+
+        public EditText editText;
 
         public Builder(Context context) {
             this.context = context;
@@ -101,6 +106,12 @@ public class QHDialogClass extends Dialog {
 
         public Builder setOnlyOneButtonText(String onlyOneButtonText) {
             this.onlyOneButtonText = onlyOneButtonText;
+            return this;
+        }
+
+        public Builder setEditText(boolean needOneEditText, String placeHolder) {
+            this.needOneEditText = needOneEditText;
+            this.placeHolder = placeHolder;
             return this;
         }
 
@@ -328,16 +339,26 @@ public class QHDialogClass extends Dialog {
             /**
              * set the content message
              */
-            TextView messageTextView = (TextView) dialogView.findViewById(R.id.textView_in_dialog);
             LinearLayout contentLayout = (LinearLayout) dialogView.findViewById(R.id.content_in_dialog);
-            if (message != null) {
+            TextView messageTextView = (TextView) dialogView.findViewById(R.id.textView_in_dialog);
+            editText = (EditText) dialogView.findViewById(R.id.editText_in_dialog);
+            if (needOneEditText) {
+                messageTextView.setVisibility(View.GONE);
+                editText.setHint(placeHolder);
+            } else {
+                editText.setVisibility(View.GONE);
                 messageTextView.setText(message);
-            } else if (contentView != null) {
-                // if no message set
-                // add the contentView to the dialog body
-                contentLayout.removeAllViews();
-                contentLayout.addView(contentView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
             }
+
+//
+//            if (message != null) {
+//                messageTextView.setText(message);
+//            } else if (contentView != null) {
+//                // if no message set
+//                // add the contentView to the dialog body
+//                contentLayout.removeAllViews();
+//                contentLayout.addView(contentView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
+//            }
 
             dialog.setContentView(dialogView);
             dialog.setCancelable(mCancelable);

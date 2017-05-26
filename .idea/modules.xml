@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QHDialog.iml" filepath="$PROJECT_DIR$/QHDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/QHDialogDemo.iml" filepath="$PROJECT_DIR$/QHDialogDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/qhlibrary/qhlibrary.iml" filepath="$PROJECT_DIR$/qhlibrary/qhlibrary.iml" />

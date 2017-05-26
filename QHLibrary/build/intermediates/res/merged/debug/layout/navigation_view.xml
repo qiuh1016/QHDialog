@@ -5,7 +5,7 @@
         android:id="@+id/iv_nav_layout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/tab_text_selected" >
+        android:background="@color/QHTitleColor" >
 
         <ImageView
             android:id="@+id/iv_nav_back"

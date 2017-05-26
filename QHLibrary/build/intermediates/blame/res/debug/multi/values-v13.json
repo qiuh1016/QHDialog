@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+        "outputFile": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/Users/qiuhong/Desktop/QHDialogDemo/qhlibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v13/values-v13.xml",
+                    "file": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/values-v13/values-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

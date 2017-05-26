@@ -24,18 +24,28 @@
             android:layout_height="wrap_content"
             android:gravity="center" >
 
-            <TextView
+            <EditText
+                android:id="@+id/editText_in_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#333"
-                android:padding="10dp"
-                android:textSize="15sp"
-                android:text="Message"
-                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/editbox_background_normal"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"/>
+
+            <TextView
+                android:id="@+id/textView_in_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:id="@+id/textView_in_dialog"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Message"
+                android:textColor="#333"
+                android:textSize="15sp"/>
 
         </LinearLayout>
 
