@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.qiuh1016:qhdialog:1.2.0'
+	        compile 'com.github.qiuh1016:qhLibrary:1.2.0'
 	}
 
 
@@ -62,7 +62,7 @@ Usage-TitleView
 --------------
 color：
 
-        <color name="tab_text_selected">#0FA474</color>
+        <color name="QHTitleColor">#0FA474</color>
 xml：
         
         <com.qiuhong.qhlibrary.QHTitleView.QHTitleView
