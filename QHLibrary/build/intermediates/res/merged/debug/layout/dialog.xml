@@ -14,25 +14,29 @@
         android:id="@+id/bottom_layout_in_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:background="@drawable/bottom_unselect"
         android:gravity="center_horizontal"
-        android:background="@drawable/bottom_unselect">
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/content_in_dialog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center" >
+            android:gravity="center">
 
             <EditText
                 android:id="@+id/editText_in_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_weight="1"
                 android:background="@android:drawable/editbox_background_normal"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name"/>
+                />
 
             <TextView
                 android:id="@+id/textView_in_dialog"
@@ -58,30 +62,30 @@
                 android:id="@+id/left_button_in_dialog"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:layout_weight="1"
-                android:text="Confirm"
-                android:textSize="14sp"
-                android:textColor="#fff"
-                android:background="@drawable/single_select"
-                android:gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/single_select"
+                android:gravity="center"
+                android:text="Confirm"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/right_button_in_dialog"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
-                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
 
-                android:text="Cancel"
-                android:textSize="14sp"
-                android:textColor="#fff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
                 android:background="@drawable/single_select"
                 android:gravity="center"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="10dp"/>
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -12,6 +12,10 @@
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
         "merged": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/abc_primary_text_material_dark.xml"
     },
@@ -20,19 +24,51 @@
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/switch_thumb_material_dark.xml"
     },
     {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
         "merged": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/abc_search_url_text.xml"
     },
     {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_search_url_text.xml"
+    },
+    {
         "merged": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
         "merged": "/Users/qiuhong/Desktop/code/QHDialogDemo/qhlibrary/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
         "source": "/Users/qiuhong/.android/build-cache/b7e64bf24ed8a2945b325796f906425c0c82cdb5/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/qiuhong/Desktop/QHDialog/QHLibrary/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/qiuhong/.android/build-cache/a057d0e875dde681cdb66fd78caa1f496a6bbd1f/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     }
 ]
