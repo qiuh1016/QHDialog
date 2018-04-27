@@ -20,8 +20,6 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.0.1'
-    implementation 'com.android.support:support-v4:27.0.1'
-    implementation 'com.android.support:support-v13:27.0.1'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 }

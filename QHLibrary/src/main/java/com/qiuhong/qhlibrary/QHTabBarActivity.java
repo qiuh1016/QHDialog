@@ -1,9 +1,10 @@
 package com.qiuhong.qhlibrary;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import com.qiuhong.qhlibrary.QHTabBar.QHTabBar;
 import com.qiuhong.qhlibrary.QHViewPager.QHNoScrollViewPager;
@@ -15,7 +16,7 @@ import java.util.List;
  * Created by qiuhong on 27/04/2018.
  */
 
-abstract public class QHTabBarActivity extends Activity {
+abstract public class QHTabBarActivity extends AppCompatActivity {
 
     private QHNoScrollViewPager viewPager;
     private QHTabBar tab_Bar;
@@ -42,7 +43,7 @@ abstract public class QHTabBarActivity extends Activity {
         tab_Bar = findViewById(R.id.tab_bar);
         viewPager = findViewById(R.id.view_pager);
 
-        sectionsPagerAdapter = new QHSectionsPagerAdapter(getFragmentManager(), fragments);
+        sectionsPagerAdapter = new QHSectionsPagerAdapter(getSupportFragmentManager(), fragments);
 
         viewPager.setAdapter(sectionsPagerAdapter);
         if (setScrollEnable()) {
